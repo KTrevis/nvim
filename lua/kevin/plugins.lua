@@ -30,17 +30,20 @@ require("lazy").setup({
 	{ "catppuccin/nvim" },
 	{ "voldikss/vim-floaterm" },
 	{ "nvim-tree/nvim-tree.lua" },
-{
-    "Diogo-ss/42-header.nvim",
-    lazy = false,
-    config = function()
-        local header = require("42header")
-        header.setup({
-            default_map = true, -- default Mapping <F1> in normal mode
-            auto_update = true,  -- update header when saving
-            user = "ketrevis", -- your user
-            mail = "ketrevist@42student.fr", -- your mail
-        })
-    end
-}
+	{
+		"Diogo-ss/42-header.nvim",
+		lazy = false,
+		config = function()
+		local header = require("42header")
+		header.setup({
+			default_map = true, -- default Mapping <F1> in normal mode
+			auto_update = true,  -- update header when saving
+			user = "ketrevis", -- your user
+			mail = "ketrevist@42student.fr", -- your mail
+		})
+		end
+	},
+	{
+		"andweeb/presence.nvim"
+	}
 })

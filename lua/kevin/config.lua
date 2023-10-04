@@ -6,4 +6,5 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 
 vim.cmd.colorscheme("catppuccin")
+
 vim.cmd("command Def lua vim.lsp.buf.definition()")

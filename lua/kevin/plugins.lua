@@ -43,7 +43,5 @@ require("lazy").setup({
 		})
 		end
 	},
-	{
-		"andweeb/presence.nvim"
-	}
+	{ "andweeb/presence.nvim" },
 })

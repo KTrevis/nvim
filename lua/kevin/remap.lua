@@ -12,3 +12,7 @@ vim.keymap.set("n", "<Leader>fw", ":Telescope live_grep<CR>")
 vim.keymap.set("n", "<Leader>fb", ":Telescope buffers<CR>")
 vim.keymap.set("n", "<A-i>", ":FloatermToggle<CR>")
 vim.keymap.set("t", "<A-i>", "<C-\\><C-n>:FloatermToggle<CR>")
+
+vim.keymap.set("n", "<Leader>d", vim.lsp.buf.hover)
+vim.keymap.set("n", "<Leader>rt", vim.lsp.buf.definition)
+

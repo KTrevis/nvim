@@ -28,6 +28,6 @@ require("presence").setup({
 	git_commit_text     = "Committing changes",
 	plugin_manager_text = "Managing plugins",
 	reading_text        = "Reading %s",
-	workspace_text      = "VSCode Is Trash",
+	workspace_text      = "Mashallah le code",
 	line_number_text    = "Line %s out of %s",
 })

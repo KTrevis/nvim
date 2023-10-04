@@ -43,5 +43,6 @@ require("lazy").setup({
 		})
 		end
 	},
-	{ "tomiis4/BufferTabs.nvim", config = function() require("buffertabs").setup() end }
+	{ "tomiis4/BufferTabs.nvim", config = function() require("buffertabs").setup() end },
+	{ "nvim-tree/nvim-web-devicons" }
 })

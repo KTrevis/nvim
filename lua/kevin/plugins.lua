@@ -45,5 +45,6 @@ require("lazy").setup({
 	},
 --	{ "tomiis4/BufferTabs.nvim", config = function() require("buffertabs").setup() end },
 	{ "nvim-tree/nvim-web-devicons" },
-	{ "akinsho/bufferline.nvim", config = function() require("bufferline").setup() end }
+	{ "akinsho/bufferline.nvim", config = function() require("bufferline").setup() end },
+	{ "numToStr/Comment.nvim", config = function () require("Comment").setup() end }
 })

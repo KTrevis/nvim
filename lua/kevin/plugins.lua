@@ -29,7 +29,7 @@ require("lazy").setup({
   },
 	{ "catppuccin/nvim" },
 	{ "voldikss/vim-floaterm" },
---	{ "nvim-tree/nvim-tree.lua" },
+	{ "nvim-tree/nvim-tree.lua", config = function() require("nvim-tree").setup() end },
 	{
 		"Diogo-ss/42-header.nvim",
 		lazy = false,
@@ -43,7 +43,6 @@ require("lazy").setup({
 		})
 		end
 	},
---	{ "tomiis4/BufferTabs.nvim", config = function() require("buffertabs").setup() end },
 	{ "nvim-tree/nvim-web-devicons" },
 	{ "akinsho/bufferline.nvim", config = function() require("bufferline").setup() end },
 	{ "numToStr/Comment.nvim", config = function () require("Comment").setup() end }

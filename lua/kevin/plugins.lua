@@ -45,5 +45,6 @@ require("lazy").setup({
 	},
 	{ "nvim-tree/nvim-web-devicons" },
 	{ "akinsho/bufferline.nvim", config = function() require("bufferline").setup() end },
-	{ "numToStr/Comment.nvim", config = function () require("Comment").setup() end }
+	{ "numToStr/Comment.nvim", config = function () require("Comment").setup() end },
+	{ "MaxMEllon/vim-jsx-pretty" }
 })

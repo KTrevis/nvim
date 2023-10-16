@@ -39,7 +39,7 @@ require("lazy").setup({
 			default_map = true, -- default Mapping <F1> in normal mode
 			auto_update = true,  -- update header when saving
 			user = "ketrevis", -- your user
-			mail = "ketrevis@42.student.fr", -- your mail
+			mail = "ketrevis@student.42.fr", -- your mail
 		})
 		end
 	},

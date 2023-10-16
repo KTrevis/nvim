@@ -4,6 +4,7 @@ vim.opt.tabstop = 2
 vim.opt.swapfile = false
 vim.opt.number = true
 vim.opt.relativenumber = true
+vim.opt.hlsearch = false
 
 vim.cmd.colorscheme("catppuccin")
 

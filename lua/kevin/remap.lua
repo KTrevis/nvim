@@ -15,9 +15,9 @@ vim.keymap.set("n", "<Leader>fb", ":Telescope buffers<CR>")
 vim.keymap.set("n", "<A-i>", ":FloatermToggle<CR>")
 vim.keymap.set("t", "<A-i>", "<C-\\><C-n>:FloatermToggle<CR>")
 
-vim.keymap.set("n", "fh", vim.lsp.buf.hover)
-vim.keymap.set("n", "fd", vim.lsp.buf.definition)
-vim.keymap.set("n", "er", vim.diagnostic.open_float)
+vim.keymap.set("n", "<Leader>fh", vim.lsp.buf.hover)
+vim.keymap.set("n", "<Leader>fd", vim.lsp.buf.definition)
+vim.keymap.set("n", "<Leader>er", vim.diagnostic.open_float)
 
 vim.keymap.set("n", "<Leader>x", ":bd<CR>")
 vim.keymap.set("n", "<Tab>", ":bnext<CR>")

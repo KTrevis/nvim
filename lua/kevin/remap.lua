@@ -1,7 +1,7 @@
 vim.g.mapleader = " "
 
-vim.keymap.set("v", "<S-J>", ":m '>+1<CR>gv=gv")
-vim.keymap.set("v", "<S-K>", ":m '<-2<CR>gv=gv")
+vim.keymap.set("v", "<S-Up>", ":m '<-2<CR>gv=gv")
+vim.keymap.set("v", "<S-Down>", ":m '>+1<CR>gv=gv")
 
 vim.keymap.set("n", "<C-s>", ":w<CR>")
 vim.keymap.set("n", ";", ":")

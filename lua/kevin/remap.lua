@@ -1,7 +1,7 @@
 vim.g.mapleader = " "
 
-vim.keymap.set("v", "<S-Down>", ":m '>+1<CR>gv=gv")
-vim.keymap.set("v", "<S-Up>", ":m '<-2<CR>gv=gv")
+vim.keymap.set("v", "<S-J>", ":m '>+1<CR>gv=gv")
+vim.keymap.set("v", "<S-K>", ":m '<-2<CR>gv=gv")
 
 vim.keymap.set("n", "<C-s>", ":w<CR>")
 vim.keymap.set("n", ";", ":")
@@ -14,6 +14,7 @@ vim.keymap.set("n", "<Leader>fb", ":Telescope buffers<CR>")
 
 vim.keymap.set("n", "<A-i>", ":FloatermToggle<CR>")
 vim.keymap.set("t", "<A-i>", "<C-\\><C-n>:FloatermToggle<CR>")
+vim.keymap.set("t", "<A-n>", "norminette<CR>")
 
 vim.keymap.set("n", "<Leader>fh", vim.lsp.buf.hover)
 vim.keymap.set("n", "<Leader>fd", vim.lsp.buf.definition)

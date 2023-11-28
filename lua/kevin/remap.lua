@@ -15,6 +15,8 @@ vim.keymap.set("n", "<Leader>fb", ":Telescope buffers<CR>")
 vim.keymap.set("n", "<A-i>", ":FloatermToggle<CR>")
 vim.keymap.set("t", "<A-i>", "<C-\\><C-n>:FloatermToggle<CR>")
 vim.keymap.set("t", "<A-n>", "norminette<CR>")
+vim.keymap.set("t", "<A-c>", "lazygit<CR>")
+vim.keymap.set("t", "<C-l>", "ft_lock<CR>")
 vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
 
 vim.keymap.set("n", "<Leader>fh", vim.lsp.buf.hover)

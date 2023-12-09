@@ -25,11 +25,9 @@ require("lazy").setup({
   },
   {
 		'hrsh7th/nvim-cmp',
-		dependencies = {'L3MON4D3/LuaSnip'},
   },
 	{ "catppuccin/nvim" },
 	{ "voldikss/vim-floaterm" },
-	{ "nvim-tree/nvim-tree.lua", config = function() require("nvim-tree").setup() end },
 	{
 		"Diogo-ss/42-header.nvim",
 		lazy = false,
@@ -45,8 +43,8 @@ require("lazy").setup({
 	},
 	{ "nvim-tree/nvim-web-devicons" },
 	{ "akinsho/bufferline.nvim", config = function() require("bufferline").setup() end },
-	{ "numToStr/Comment.nvim", config = function () require("Comment").setup() end },
 	{ "lewis6991/gitsigns.nvim", config = function() require("gitsigns").setup() end },
 	{ "nvim-lualine/lualine.nvim", config = function() require("lualine").setup() end },
 	{ "m4xshen/autoclose.nvim", config = function() require("autoclose").setup() end },
+	{ "terrortylor/nvim-comment", config = function() require("nvim_comment").setup() end }
 })

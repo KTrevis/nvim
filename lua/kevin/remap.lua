@@ -9,6 +9,11 @@ vim.keymap.set("n", "<C-_>", ":CommentToggle<CR>")
 vim.keymap.set("n", "<C-s>", ":w<CR>")
 vim.keymap.set("n", ";", ":")
 
+vim.keymap.set("n", "<Up>", "")
+vim.keymap.set("n", "<Down>", "")
+vim.keymap.set("n", "<Left>", "")
+vim.keymap.set("n", "<Right>", "")
+
 vim.keymap.set("n", "<Leader>t", ":NvimTreeToggle<CR>")
 vim.keymap.set("n", "<Leader>ff", ":Telescope find_files<CR>")
 vim.keymap.set("n", "<Leader>fg", ":Telescope live_grep<CR>")

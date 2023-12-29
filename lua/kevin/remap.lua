@@ -2,6 +2,8 @@ vim.g.mapleader = " "
 
 vim.keymap.set("v", "<S-Up>", ":m '<-2<CR>gv=gv")
 vim.keymap.set("v", "<S-Down>", ":m '>+1<CR>gv=gv")
+vim.keymap.set("v", "<S-k>", ":m '<-2<CR>gv=gv")
+vim.keymap.set("v", "<S-j>", ":m '>+1<CR>gv=gv")
 
 vim.keymap.set("v", "<C-_>", ":CommentToggle<CR>")
 vim.keymap.set("n", "<C-_>", ":CommentToggle<CR>")
@@ -27,3 +29,4 @@ vim.keymap.set("n", "<Leader>er", vim.diagnostic.open_float)
 
 vim.keymap.set("n", "<Leader>x", ":bd<CR>")
 vim.keymap.set("n", "<Tab>", ":bnext<CR>")
+vim.keymap.set("n", "<Leader><Tab>", ":bprevious<CR>")

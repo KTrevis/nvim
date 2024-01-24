@@ -30,3 +30,13 @@ vim.keymap.set("n", "<Leader>er", vim.diagnostic.open_float)
 vim.keymap.set("n", "<Leader>x", ":bd<CR>")
 vim.keymap.set("n", "<Tab>", ":bnext<CR>")
 vim.keymap.set("n", "<Leader><Tab>", ":bprevious<CR>")
+
+function CloseTabs()
+	local i = 0
+	while i < 99 do
+		vim.cmd("bd")
+		i = i+ 1
+	end
+end
+
+vim.cmd("command! CloseTabs lua CloseTabs()")

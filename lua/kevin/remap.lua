@@ -19,7 +19,7 @@ vim.keymap.set("n", "<Leader>fb", ":Telescope buffers<CR>")
 
 vim.keymap.set("n", "<A-i>", ":FloatermToggle<CR>")
 vim.keymap.set("t", "<A-i>", "<C-\\><C-n>:FloatermToggle<CR>")
-vim.keymap.set("t", "<A-n>", "norminette<CR>")
+vim.keymap.set("t", "<A-n>", "norminette | grep -v OK<CR>")
 vim.keymap.set("t", "<A-g>", "lazygit<CR>")
 vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
 

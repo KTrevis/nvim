@@ -33,7 +33,7 @@ require("lazy").setup({
 		end
 	},
 	{ "nvim-tree/nvim-web-devicons" },
-	{ "akinsho/bufferline.nvim", config = function() require("bufferline").setup() end },
+	-- { "akinsho/bufferline.nvim", config = function() require("bufferline").setup() end },
 	{ "lewis6991/gitsigns.nvim", config = function() require("gitsigns").setup() end },
 	{ "nvim-lualine/lualine.nvim", config = function() require("lualine").setup() end },
 	{ "m4xshen/autoclose.nvim", config = function() require("autoclose").setup() end },

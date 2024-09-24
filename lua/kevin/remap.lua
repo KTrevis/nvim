@@ -28,14 +28,13 @@ vim.keymap.set("n", "<Leader>fd", vim.lsp.buf.definition)
 vim.keymap.set("n", "<Leader>er", vim.diagnostic.open_float)
 
 vim.keymap.set("n", "<Leader>x", ":bd<CR>")
-vim.keymap.set("n", "<Tab>", ":bnext<CR>")
-vim.keymap.set("n", "<Leader><Tab>", ":bprevious<CR>")
+vim.keymap.set("n", "<Tab>", ":BufferPick<CR>")
 
 function CloseTabs()
 	local i = 0
 	while i < 99 do
 		vim.cmd("bd")
-		i = i+ 1
+		i = i + 1
 	end
 end
 

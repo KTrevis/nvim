@@ -34,7 +34,7 @@ require("lazy").setup({
 	},
 	{ "nvim-tree/nvim-web-devicons" },
 	{ "lewis6991/gitsigns.nvim", config = function() require("gitsigns").setup() end },
-	{ "nvim-lualine/lualine.nvim", config = function() require("lualine").setup() end },
+	-- { "nvim-lualine/lualine.nvim", config = function() require("lualine").setup() end },
 	{ "m4xshen/autoclose.nvim", config = function() require("autoclose").setup() end },
 	{ "terrortylor/nvim-comment", config = function() require("nvim_comment").setup() end },
 	{ "nvim-tree/nvim-tree.lua", config = function() require("nvim-tree").setup() end },

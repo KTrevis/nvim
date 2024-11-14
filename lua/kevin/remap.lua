@@ -17,8 +17,6 @@ vim.keymap.set("n", "<Leader>fg", ":Telescope live_grep<CR>")
 vim.keymap.set("n", "<Leader>fc", ":Telescope current_buffer_fuzzy_find<CR>")
 vim.keymap.set("n", "<Leader>fb", ":Telescope buffers<CR>")
 
-vim.keymap.set("n", "<A-i>", ":ToggleTerm direction=float<CR>")
-vim.keymap.set("t", "<A-i>", "<c-D><CR>")
 vim.keymap.set("t", "<A-n>", "norminette srcs/ | grep -v OK<CR>")
 vim.keymap.set("t", "<A-g>", "lazygit<CR>")
 vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")

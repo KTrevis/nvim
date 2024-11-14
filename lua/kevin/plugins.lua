@@ -38,6 +38,5 @@ require("lazy").setup({
 	{ "m4xshen/autoclose.nvim", config = function() require("autoclose").setup() end },
 	{ "terrortylor/nvim-comment", config = function() require("nvim_comment").setup() end },
 	{ "nvim-tree/nvim-tree.lua", config = function() require("nvim-tree").setup() end },
-	{ "akinsho/toggleterm.nvim", config = function() require("toggleterm").setup({insert_mappings=true}) end },
 	{ "romgrk/barbar.nvim", config = function() require("barbar").setup() end },
 })

@@ -39,4 +39,7 @@ require("lazy").setup({
 	{ "terrortylor/nvim-comment", config = function() require("nvim_comment").setup() end },
 	{ "nvim-tree/nvim-tree.lua", config = function() require("nvim-tree").setup() end },
 	{ "romgrk/barbar.nvim", config = function() require("barbar").setup() end },
+	{"nvim-treesitter/nvim-treesitter", config = function() require("nvim-treesitter.configs").setup({
+		highlight = {enable=true}
+	}) end }
 })

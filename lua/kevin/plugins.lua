@@ -41,5 +41,6 @@ require("lazy").setup({
 	{ "romgrk/barbar.nvim", config = function() require("barbar").setup() end },
 	{"nvim-treesitter/nvim-treesitter", config = function() require("nvim-treesitter.configs").setup({
 		highlight = {enable=true}
-	}) end }
+	}) end },
+	{ "mg979/vim-visual-multi" }
 })

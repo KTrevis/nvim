@@ -19,19 +19,6 @@ require("lazy").setup({
 	{ 'neovim/nvim-lspconfig', dependencies = {'hrsh7th/cmp-nvim-lsp'}, },
 	{ 'hrsh7th/nvim-cmp', dependencies = {'L3MON4D3/LuaSnip'} },
 	{ "catppuccin/nvim" },
-	{
-		"Diogo-ss/42-header.nvim",
-		lazy = false,
-		config = function()
-			local header = require("42header")
-			header.setup({
-				default_map = true, -- default Mapping <F1> in normal mode
-				auto_update = true,  -- update header when saving
-				user = "ketrevis", -- your user
-				mail = "ketrevis@student.42.fr", -- your mail
-			})
-		end
-	},
 	{ "nvim-tree/nvim-web-devicons" },
 	{ "lewis6991/gitsigns.nvim", config = function() require("gitsigns").setup() end },
 	-- { "nvim-lualine/lualine.nvim", config = function() require("lualine").setup() end },

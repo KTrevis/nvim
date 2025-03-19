@@ -8,7 +8,7 @@ vim.keymap.set("v", "<S-j>", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "?", ":CommentToggle<CR>")
 vim.keymap.set("n", "?", ":CommentToggle<CR>")
 
-vim.keymap.set("n", "<C-s>", ":w<CR>")
+vim.keymap.set("n", "<C-s>", ":w<CR>:!npx prettier --write %<CR><CR>")
 vim.keymap.set("n", ";", ":")
 
 vim.keymap.set("n", "<Leader>t", ":NvimTreeToggle<CR>")

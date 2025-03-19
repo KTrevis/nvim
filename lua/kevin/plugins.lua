@@ -29,5 +29,5 @@ require("lazy").setup({
 	{"nvim-treesitter/nvim-treesitter", config = function() require("nvim-treesitter.configs").setup({
 		highlight = {enable=true}
 	}) end },
-	{ "mg979/vim-visual-multi" }
+	{ "mg979/vim-visual-multi" },
 })

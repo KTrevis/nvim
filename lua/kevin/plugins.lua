@@ -24,7 +24,11 @@ require("lazy").setup({
 	-- { "nvim-lualine/lualine.nvim", config = function() require("lualine").setup() end },
 	{ "m4xshen/autoclose.nvim", config = function() require("autoclose").setup() end },
 	{ "terrortylor/nvim-comment", config = function() require("nvim_comment").setup() end },
-	{ "nvim-tree/nvim-tree.lua", config = function() require("nvim-tree").setup() end },
+	{ "nvim-tree/nvim-tree.lua", config = function() require("nvim-tree").setup({
+		git = {
+			ignore = false
+		}
+	}) end },
 	{ "romgrk/barbar.nvim", config = function() require("barbar").setup() end },
 	{"nvim-treesitter/nvim-treesitter", config = function() require("nvim-treesitter.configs").setup({
 		highlight = {enable=true}
